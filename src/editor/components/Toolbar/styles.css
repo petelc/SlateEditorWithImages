@@ -1,0 +1,18 @@
+.toolbar {
+  display: flex;
+  gap: 2px;
+}
+
+.toolbar button {
+  font-size: 1.5em;
+  padding: 6px 10px;
+  display: flex;
+  border: none;
+  background-color: lightgrey;
+  transition: all 100ms linear;
+}
+
+.toolbar button:hover {
+  color: white;
+  background-color: rebeccapurple;
+}

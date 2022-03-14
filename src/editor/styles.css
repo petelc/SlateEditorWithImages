@@ -1,0 +1,15 @@
+.editor-wrapper {
+  max-width: 600px;
+  box-shadow: 2px 2px 1px 1px lightgrey;
+  border: 1px solid lightgrey;
+  max-width: 600px;
+}
+
+[data-slate-editor] {
+  border-top: 1px solid lightgrey;
+  padding: 0 10px;
+}
+
+[data-slate-node="element"] {
+  margin: 10px 0;
+}
